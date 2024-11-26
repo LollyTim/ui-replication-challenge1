@@ -2,26 +2,12 @@
   "version": 2,
   "routes": [
     {
-      "src": "^/$",
+      "src": "/",
       "dest": "/"
     },
     {
-      "src": "^/grayV$",
+      "src": "/grayV",
       "dest": "/"
-    },
-    {
-      "src": "^/blog$",
-      "dest": "/blog/index"
-    },
-    {
-      "src": "^/(.*)",
-      "dest": "/$1",
-      "has": [
-        {
-          "type": "cookie",
-          "name": "session_id"
-        }
-      ]
     }
   ],
   "cleanUrls": true,
