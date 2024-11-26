@@ -9,7 +9,5 @@
       "src": "/grayV",
       "dest": "/"
     }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  ]
 }
