@@ -22,56 +22,12 @@
       "dest": "/products?id=$id"
     },
     {
-      "src": "^/old-route$",
-      "status": 301,
-      "headers": {
-        "Location": "/new-route"
-      }
-    },
-    {
       "src": "^/(.*)",
       "dest": "/$1",
       "has": [
         {
           "type": "cookie",
           "name": "session_id"
-        }
-      ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/old-blog",
-      "destination": "/blog",
-      "permanent": true
-    },
-    {
-      "source": "/deprecated",
-      "destination": "/new-feature",
-      "statusCode": 302
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/dashboard",
-      "destination": "/app/dashboard"
-    },
-    {
-      "source": "/products/(?<category>[^/]+)",
-      "destination": "/products?category=$category"
-    }
-  ],
-  "headers": [
-    {
-      "source": "/app/(.*)",
-      "headers": [
-        {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
         }
       ]
     }
