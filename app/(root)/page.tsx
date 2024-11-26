@@ -92,10 +92,10 @@ const LandingPage = () => {
                     <div className="w-full lg:w-1/2 text-center lg:text-left">
                         <div className="bg-black/30 backdrop-blur-lg rounded-lg p-6 md:p-8 lg:p-10 max-w-xl mx-auto lg:mx-0">
                             <h1 className="text-3xl md:text-4xl lg:text-5xl text-white mb-4 md:mb-6">
-                                Secure your child's financial future
+                                Secure your child&apos;s financial future
                             </h1>
                             <p className="text-base md:text-lg text-white mb-6 md:mb-8">
-                                Take charge of your Ward's future, create a savings plan and forever secure their financial future.
+                                Take charge of your Ward&apos;s future, create a savings plan and forever secure their financial future.
                             </p>
                             <button className="bg-white text-black px-6 py-3 md:px-8 md:py-4 rounded-full hover:bg-gray-100 transition-colors">
                                 Create savings plan
