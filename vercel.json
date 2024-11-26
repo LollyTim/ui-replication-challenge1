@@ -14,14 +14,6 @@
       "dest": "/blog/index"
     },
     {
-      "src": "^/blog/(?<slug>[^/]+)$",
-      "dest": "/blog/post?slug=$slug"
-    },
-    {
-      "src": "^/products/(?<id>\\d+)$",
-      "dest": "/products?id=$id"
-    },
-    {
       "src": "^/(.*)",
       "dest": "/$1",
       "has": [
