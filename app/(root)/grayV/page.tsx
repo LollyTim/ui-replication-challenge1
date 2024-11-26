@@ -17,19 +17,18 @@ const LandingPage = () => {
             }}
         >
             {/* Responsive Navbar */}
-            <nav className="w-full px-4 py-4 md:py-6 lg:px-0">
-                <div className="container mx-auto flex justify-between items-center">
+            <nav className="w-full px-4 py-3 md:py-6 lg:px-0">
+                <div className="w-[90%] max-w-6xl mx-auto flex justify-between items-center">
                     {/* Logo */}
                     <div className="w-32 md:w-40 lg:w-48">
                         <Image
                             src="/puerii_logo.svg"
                             alt="Puerii Logo"
-                            width={150}
+                            width={120}
                             height={50}
                             className="object-contain"
                         />
                     </div>
-
                     {/* Desktop Navigation */}
                     <div className="hidden lg:flex items-center space-x-6">
                         <nav className="flex space-x-6 text-white">
@@ -86,7 +85,7 @@ const LandingPage = () => {
             </nav>
 
             {/* Hero Section */}
-            <div className="container mx-auto px-4 flex-grow flex flex-col justify-center lg:mt-28">
+            <div className="w-[90%] max-w-6xl mx-auto px-4 flex-grow flex flex-col justify-center lg:mt-28">
                 <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0 lg:space-x-8">
                     {/* Content Section */}
                     <div className="w-full lg:w-1/2 text-center lg:text-left">

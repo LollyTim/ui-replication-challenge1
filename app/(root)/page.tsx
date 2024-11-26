@@ -17,14 +17,14 @@ const LandingPage = () => {
             }}
         >
             {/* Responsive Navbar */}
-            <nav className="w-full px-4 py-4 md:py-6 lg:px-0">
-                <div className="container mx-auto flex justify-between items-center">
+            <nav className="w-full px-4 py-3 md:py-6 lg:px-0">
+                <div className="w-[90%] max-w-6xl mx-auto flex justify-between items-center">
                     {/* Logo */}
                     <div className="w-32 md:w-40 lg:w-48">
                         <Image
                             src="/puerii_logo.svg"
                             alt="Puerii Logo"
-                            width={150}
+                            width={120}
                             height={50}
                             className="object-contain"
                         />
@@ -44,7 +44,7 @@ const LandingPage = () => {
                             ))}
                         </nav>
                     </div>
-                    <button className="bg-white text-black px-6 py-3 rounded-full hover:bg-gray-100 transition-colors">
+                    <button className="bg-white text-black px-6 py-3 rounded-full hidden lg:flex hover:bg-gray-100 transition-colors">
                         Create a Plan
                     </button>
 
@@ -86,7 +86,7 @@ const LandingPage = () => {
             </nav>
 
             {/* Hero Section */}
-            <div className="container mx-auto px-4 flex-grow flex flex-col justify-center">
+            <div className="w-[90%] max-w-6xl mx-auto px-4 flex-grow flex flex-col justify-center  lg:mt-28">
                 <div className="flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0 lg:space-x-8">
                     {/* Content Section */}
                     <div className="w-full lg:w-1/2 text-center lg:text-left">
@@ -104,7 +104,7 @@ const LandingPage = () => {
                     </div>
 
                     {/* Image Section */}
-                    <div className="w-full lg:w-1/2 hidden lg:flex justify-end relative">
+                    <div className="w-full lg:w-1/2 hidden lg:flex justify-end relative mt-28">
                         <div className="flex flex-col -space-y-12 md:-space-y-16 lg:-space-y-40">
                             {[
                                 "/Frame 1618873675.png",
